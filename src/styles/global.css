@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --maroon: #800000;
+  --pink: #ffc0cb;
+  --red: #E63946;
+  --cream: #f1faee;
+  --background: #1a1a1a;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--cream);
+  font-family: 'Press Start 2P', cursive; /* A good pixel font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  image-rendering: pixelated; /* Ensures images have a sharp, pixelated look */
+}

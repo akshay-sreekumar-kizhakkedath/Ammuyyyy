@@ -1,0 +1,16 @@
+.pixelButton {
+    background-color: var(--pink);
+    color: var(--maroon);
+    border: 3px solid var(--maroon);
+    padding: 10px 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 var(--maroon);
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.pixelButton:active {
+    transform: translateY(4px);
+    box-shadow: 0 0 0 var(--maroon);
+}
