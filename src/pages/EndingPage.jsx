@@ -264,7 +264,7 @@ const EndingPage = () => {
 
             {!accepted ? (
                 <ContentWrapper>
-                    <MainText>Will you be mine?</MainText>
+                    <MainText>Will you be mine, Ammu?</MainText>
                     <SubText>I promise to love you always.</SubText>
                     <ButtonsContainer>
                         <YesButton onClick={() => setAccepted(true)}>Yes</YesButton>

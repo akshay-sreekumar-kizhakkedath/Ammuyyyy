@@ -180,7 +180,7 @@ const LandingPage = () => {
                 </FloatingElement>
             ))}
             <TitleBox>
-                <Title>A Message For You...</Title>
+                <Title>For My Dearest Ammu...</Title>
                 <Subtitle>A little digital journey from my heart to yours.</Subtitle>
                 <Button onClick={() => navigate('/game')}>
                     Open My Heart
